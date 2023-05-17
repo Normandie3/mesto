@@ -11,19 +11,93 @@
 
 <body class="page">
     <header class="header">
-        <img src="./images/logo.svg" alt="Логотив Место" class="header__logo">
+        <img src="./images/logo.svg" alt="Логотив Mesto Russia" class="header__logo">
     </header>
+
     <main class="content">
+
         <section class="profile">
             <img src="./images/Кусто.jpg" alt="Жак-Ив Кусто" class="profile__avatar">
             <div class="profile__info">
-                <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button type="button" class="profile__edit-button"></button>
-                <p class="info profile__job">Исследователь океана</p>
+                <div class="profile__name">
+                    <h1 class="profile__title">Жак-Ив Кусто</h1>
+                    <button type="button" class="profile__edit-button content__button"><img class="profile__icon-pen"
+                            alt="редактировать профиль" src="images/pen.svg"></button>
+                </div>
+                <p class="profile__job">Исследователь океана</p>
             </div>
-            <button type="button" class="profile__add-button"></button>
+            <button type="button" class="profile__add-button content__button"><img class="profile__icon-plus"
+                    alt="добавить фото" src="images/plus.svg"></button>
+        </section>
+
+        <section class="photo-grid">
+
+            <figure class="photo-grid__item">
+                <img src="./images/Карачаевск.jpg" class="photo-grid__img" alt="Карачаевск">
+                <figcaption class="photo-grid__text">
+                    <p class="photo-grid__title">Карачаевск</p>
+                    <button type="button" class="photo-grid__like" name="like">
+                        <img src="images/like.svg" alt="Лайк">
+                    </button>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-grid__item">
+                <img src="./images/Эльбрус.jpg" class="photo-grid__img" alt="Эльбрус">
+                <figcaption class="photo-grid__text">
+                    <p class="photo-grid__title">Гора Эльбрус</p>
+                    <button type="button" class="photo-grid__like" name="like">
+                        <img src="images/like.svg" alt="Лайк">
+                    </button>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-grid__item">
+                <img src="./images/Домбай.jpg" class="photo-grid__img" alt="Домбай">
+                <figcaption class="photo-grid__text">
+                    <p class="photo-grid__title">Домбай</p>
+                    <button type="button" class="photo-grid__like" name="like">
+                        <img src="images/like.svg" alt="Лайк">
+                    </button>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-grid__item">
+                <img src="./images/Карачаевск.jpg" class="photo-grid__img" alt="Карачаевск">
+                <figcaption class="photo-grid__text">
+                    <p class="photo-grid__title">Карачаевск</p>
+                    <button type="button" class="photo-grid__like" name="like">
+                        <img src="images/like.svg" alt="Лайк">
+                    </button>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-grid__item">
+                <img src="./images/Эльбрус.jpg" class="photo-grid__img" alt="Эльбрус">
+                <figcaption class="photo-grid__text">
+                    <p class="photo-grid__title">Гора Эльбрус</p>
+                    <button type="button" class="photo-grid__like" name="like">
+                        <img src="images/like.svg" alt="Лайк">
+                    </button>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-grid__item">
+                <img src="./images/Домбай.jpg" class="photo-grid__img" alt="Домбай">
+                <figcaption class="photo-grid__text">
+                    <p class="photo-grid__title">Домбай</p>
+                    <button type="button" class="photo-grid__like" name="like">
+                        <img src="images/like.svg" alt="Лайк">
+                    </button>
+                </figcaption>
+            </figure>
+
         </section>
     </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">© 2020 Mesto Russia</p>
+    </footer>
 
 </body>
 
