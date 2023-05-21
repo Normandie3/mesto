@@ -1,0 +1,19 @@
+.photo-grid__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 25px 15px 21px 31px;
+    background-color: white;
+    color: black;
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__text {
+        padding: 25px 15px 31px 21px;
+    }
+}
